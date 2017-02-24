@@ -4,3 +4,4 @@ import json
 
 __author__ = 'Matti Borchers'
 
+print "Hallo"
