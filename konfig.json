@@ -1,0 +1,32 @@
+{
+  "database": "alarmmeldungen.db",
+  "wehr": {
+    "id": 0,
+    "name": "Gemeindebrandmeister"
+  },
+  "serial": "/dev/ttyUSB0",
+  "mail": {
+    "from_name": "DME2Mail {wehr_name}",
+    "from": "dme.gemeindebrandmeister@feuerwehrflotwedel.de",
+    "user": "feuerwehrflotwedelde-0001",
+    "pw": "gcpLUnGS",
+    "server": "smtp.udag.de",
+    "port": "587",
+    "alarm_mail": [
+      {
+        "subject": "Alarm: {AS} am {datum} um {uhrzeit}",
+        "body": "Neuer Alarm!\n\nDatum: {datum}\nUhrzeit: {uhrzeit}\n\nText: {einsatztext}",
+        "to": "dme.alarmierung.gbm@feuerwehrflotwedel.de",
+        "cc": "matti.borchers@feuerwehrflotwedel.de"
+      },
+      {
+        "subject": "Alarm: %AS% am %datum% um %uhrzeit%",
+        "body": "Neuer Alarm!\n\nDatum: %datum%\nUhrzeit: %uhrzeit%\n\nText: %einsatztext%",
+        "to": "ortskommando.aktiv@feuerwehr-broeckel.de",
+        "cc": "",
+        "ric_1": "",
+        "ric_3": ""
+      }
+    ]
+  }
+}
