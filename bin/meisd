@@ -1,4 +1,4 @@
 #!/bin/bash
 
 BINPATH=`dirname $0`
-python "$BINPATH/../meis/meisd.py" $@
+python "$BINPATH/../meisd/main.py" $@

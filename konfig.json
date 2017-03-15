@@ -20,8 +20,8 @@
         "cc": "matti.borchers@feuerwehrflotwedel.de"
       },
       {
-        "subject": "Alarm: %AS% am %datum% um %uhrzeit%",
-        "body": "Neuer Alarm!\n\nDatum: %datum%\nUhrzeit: %uhrzeit%\n\nText: %einsatztext%",
+        "subject": "Alarm: {AS} am {datum} um {uhrzeit}",
+        "body": "Datum: {datum}\nUhrzeit: {uhrzeit}\nText: {einsatztext}",
         "to": "ortskommando.aktiv@feuerwehr-broeckel.de",
         "cc": "",
         "ric_1": "",
